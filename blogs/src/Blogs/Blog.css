@@ -1,0 +1,77 @@
+/* Blog.css */
+
+/* Styles for larger screens */
+.Blog1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .title,
+  .Content {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 2rem;
+  }
+  
+  button {
+    margin-left: 23rem;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .Blog1 {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
+  .Blogs2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Additional styling for individual blogs (you can modify as needed) */
+  .blogItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
